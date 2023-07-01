@@ -3,27 +3,27 @@ import { CiMobile1 } from "react-icons/ci";
 import { MdWorkspacesOutline } from "react-icons/md";
 export const projectExperience = [
   {
-    name: "Website Design",
-    projects: 76,
+    name: "Active Communication",
+    projects: 90,
     icon: HiOutlineDesktopComputer,
     bg: "#286F6C",
   },
   {
-    name: "Mobile App Design",
-    projects: 63,
+    name: "Continuing Education",
+    projects: 83,
     icon: CiMobile1,
     bg: "#EEC048",
   },
   {
-    name: "Brand Identity",
-    projects: 47,
+    name: "Training content design",
+    projects: 97,
     icon: MdWorkspacesOutline,
     bg: "#F26440",
   },
 ];
 
 export const WhatDoIHelp = [
-  "I will help you with finging a solution and solve your problem, We use process design to create digital products. Besides that also help their business.",
+  "Multiple experiences at the Gulf College in 2011, where I started as a librarian, then moved to the registration department in 2012, then I started as a computer and software technician in 2013 until I started my career as a lecturer in information technology in 2019 and is currently an artificial intelligence trainer",
   "We use process design to create digital products. Besides that also help their business",
 ];
 
