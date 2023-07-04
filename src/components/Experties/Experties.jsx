@@ -23,13 +23,12 @@ const Experties = () => {
                 className={css.exp}
                 key={i}
               >
-                <div
-                  style={{ background: exp.bg }}
-                  className="flexCenter"
-                ></div>
+                <div style={{ background: exp.bg }} className="flexCenter">
+                  <exp.icon size={25} color="white" />
+                </div>
                 <div>
                   <span>{exp.name}</span>
-                  <span className="secondaryText">{exp.projects} %</span>
+                  <span className="secondaryText">{exp.projects} Projects</span>
                 </div>
               </motion.div>
             );
@@ -38,9 +37,15 @@ const Experties = () => {
 
         {/* right */}
         <motion.div variants={textVariant(0.5)} className={css.rightSide}>
-          <span className="primaryText">About Alkhalil? </span>
+          <span className="primaryText" style={{ textAlign: "center" }}>
+            مـعـلـومـات عـنـي
+          </span>
           {WhatDoIHelp.map((paragraph, i) => (
-            <span className="secondaryText" key={i}>
+            <span
+              className="secondaryText"
+              key={i}
+              style={{ textAlign: "center" }}
+            >
               {paragraph}
             </span>
           ))}

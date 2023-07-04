@@ -4,7 +4,7 @@ import css from "./Hero.module.scss";
 import { motion } from "framer-motion";
 const Hero = () => {
   return (
-    <section className={`paddings ${css.wrapper}`}>
+    <section className={`paddings ${css.wrapper}`} dir="rtl">
       <motion.div
         variants={staggerContainer}
         initial="hidden"
@@ -17,17 +17,15 @@ const Hero = () => {
             className="primaryText"
             variants={fadeIn("right", "tween", 0.2, 1)}
           >
-            Hey There,
-            <br />
-            I'm Alkhalil.
+            الخـلـيـل الـعـبـدلـي
           </motion.span>
           <motion.span
             className="secondaryText"
             variants={fadeIn("left", "tween", 0.4, 1)}
           >
-            An IT Lecturer
+            مـحـاضـر تقنية المـعلـومـات
             <br />
-            Certified AI Trainer
+            مـدرب أدوات الذكـاء الإصـطـناعـي
           </motion.span>
         </div>
 
@@ -53,8 +51,8 @@ const Hero = () => {
           >
             <div className="primaryText">10</div>
             <div className="secondaryText">
-              <div>Years</div>
-              <div>Experience</div>
+              <div>خـبـرة</div>
+              <div>أعـوام</div>
             </div>
           </motion.div>
 
@@ -63,8 +61,8 @@ const Hero = () => {
             className={css.certificate}
           >
             <img src="./certificate.png" alt="" />
-            <span>CERTIFIED LECTURER</span>
-            {/* <span>UI/UX DESIGNER</span> */}
+            <span>مـدرب مـعـتمـد</span>
+            <span>من وزارة التـعليـم الـعـالـي</span>
           </motion.div>
         </div>
       </motion.div>

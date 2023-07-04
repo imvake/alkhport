@@ -34,10 +34,10 @@ const Header = () => {
           style={getMenuStyles(menuOpened)}
         >
           <li>
-            <a href="#experties">Services</a>
+            <a href="#experties">عـن الخـلـيـل</a>
           </li>
           <li>
-            <a href="#work">Experience</a>
+            <a href="#work">الـخـبرات</a>
           </li>
           <li>
             <a href="#portfolio">Portfolio</a>

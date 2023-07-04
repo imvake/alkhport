@@ -1,53 +1,61 @@
 import { HiOutlineDesktopComputer } from "react-icons/hi";
 import { CiMobile1 } from "react-icons/ci";
 import { MdWorkspacesOutline } from "react-icons/md";
+import { MdSpatialAudioOff } from "react-icons/md";
+import { MdOutlineCastForEducation } from "react-icons/md";
+import { BiConversation } from "react-icons/bi";
 export const projectExperience = [
   {
-    name: "Active Communication",
+    name: "الـتـواصـل الـمسـتمر",
     projects: 90,
-    icon: HiOutlineDesktopComputer,
+    icon: MdSpatialAudioOff,
     bg: "#286F6C",
   },
   {
-    name: "Continuing Education",
+    name: "الـتعـلم الـمـسـتمر",
     projects: 83,
-    icon: CiMobile1,
+    icon: MdOutlineCastForEducation,
     bg: "#EEC048",
   },
   {
-    name: "Training content design",
+    name: "الـتـحدث والـتخـاطـب مـع الـجمـهـور",
     projects: 97,
-    icon: MdWorkspacesOutline,
+    icon: BiConversation,
     bg: "#F26440",
   },
 ];
 
 export const WhatDoIHelp = [
-  "Multiple experiences at the Gulf College in 2011, where I started as a librarian, then moved to the registration department in 2012, then I started as a computer and software technician in 2013 until I started my career as a lecturer in information technology in 2019 and is currently an artificial intelligence trainer",
-  "We use process design to create digital products. Besides that also help their business",
+  `
+خبرات متعددة بكلية الخليج إبتداءا من 2011 حيث
+بدأت بوظيفة أمين مكتبة ثم إنتقلت لقسم التسجيل
+في 2012 بعدها بدأت بوظيفة فني حاسب آلي و
+برمجيات في 2013 حتى بدأت مشواري كمحاضر
+في 2019 في تقنية المعلومات 
+.  `,
+  "وحاليا مدرب أدوات الذكاء الإصطناعي. ",
 ];
 
 export const workExp = [
   {
-    place: "Self-Employed, Brisbane",
-    tenure: "Aug 2014 - Sep 2016",
-    role: "Visual Designer",
-    detail:
-      "A visual desginer dsesign for a variety of platoforms, may include internet and internet sites, games, movies, kioasks and wearbies. In short, they create the concepts",
+    place: "مركز الدراسات الـتـأسيسية",
+    tenure: "سبتمبر 2019",
+    role: "مـحـاضر",
+    detail: "مـحـاضر لـطلاب الـسنة التـأسيسية لـبرامج الـحاسـب الآلـي",
   },
   {
-    place: "New Man Services",
-    tenure: "Aug 2014 - Sep 2016",
-    role: "UI/UX Designer",
+    place: "مـركز تـقنـية المعلومات وتكنلوجـيا التعلـيم",
+    tenure: "نوفمبر 2013 - سبتمبر 2019",
+    role: "دعـم فني",
     detail:
-      "A visual desginer dsesign for a variety of platoforms, may include internet and internet sites, games, movies, kioasks and wearbies. In short, they create the concepts",
+      "تـقديم دـعم فـني لحواسـيـب الكـلية , دعم الموقع وإدارة صـفحات التـواصل الإجتماعي",
   },
   {
-    place: "Global Solution",
-    tenure: "Aug 2014 - Sep 2016",
-    role: "Sr. Product Designer",
+    place: "مركز القبول والتسجيل",
+    tenure: "نوفمبر 2011 - نوفمبر 2013",
+    role: "تخليص معاملات الطـلاب",
     detail:
-      "A visual desginer dsesign for a variety of platoforms, may include internet and internet sites, games, movies, kioasks and wearbies. In short, they create the concepts",
+      "تخليص متطلبات الطلاب في الشؤون الإدارية, تعزيز التواصل مع الـطلاب وتسهيل إجراءات",
   },
 ];
 
