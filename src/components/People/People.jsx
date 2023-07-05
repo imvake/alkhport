@@ -1,5 +1,6 @@
 import React from "react";
 import { comments, sliderSettings } from "../../utils/data";
+import { igposts } from "../../utils/data";
 import css from "./People.module.scss";
 import Slider from "react-slick";
 import { motion } from "framer-motion";
@@ -36,15 +37,22 @@ const People = () => {
         <div className={`yPaddings ${css.comments}`}>
           {/* to use slider , we have to inlcude css in index.html head */}
           <Slider {...sliderSettings} className={css.slider}>
-            {comments.map((comment, i) => {
+            {igposts.map((igposts, i) => {
               return (
                 <div className={`flexCenter ${css.comment}`}>
-                  <img src={comment.img} alt="" />
-                  <p>{comment.comment}</p>
+                  <iframe
+                    src={igposts.url}
+                    width="300"
+                    height="400"
+                    frameBorder="0"
+                    scrolling="no"
+                    allowtransparency="true"
+                  ></iframe>
+                  {/* <p>{comment.comment}</p> */}
                   <div className={css.line}></div>
                   <div className={css.bio}>
-                    <span>{comment.name}</span>
-                    <span>{comment.post}</span>
+                    <span>{igposts.caption}</span>
+                    {/* <span>{comment.post}</span> */}
                   </div>
                 </div>
               );

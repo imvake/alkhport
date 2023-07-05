@@ -125,6 +125,39 @@ export const comments = [
   },
 ];
 
+export const igposts = [
+  {
+    url: "https://www.instagram.com/reel/CtrEb9JqJL4/?utm_source=ig_web_copy_link&igshid=MzRlODBiNWFlZA==",
+    caption:
+      "توليد الصور بالوصف بإستخدام تقنية الذكاء الاصطناعي من مايكروسوفت Bing ، من خلال وصفك تستطيع صناعة الصور مجانا ، عليك بأن تصف بحرص مع اختيار مصطلحات فنية من أجل المزيد من التفاصيل .",
+  },
+  {
+    url: "https://www.instagram.com/reel/CtrEb9JqJL4/?utm_source=ig_web_copy_link&igshid=MzRlODBiNWFlZA==",
+    caption:
+      "توليد الصور بالوصف بإستخدام تقنية الذكاء الاصطناعي من مايكروسوفت Bing ، من خلال وصفك تستطيع صناعة الصور مجانا ، عليك بأن تصف بحرص مع اختيار مصطلحات فنية من أجل المزيد من التفاصيل .",
+  },
+  {
+    url: "https://www.instagram.com/reel/CtrEb9JqJL4/?utm_source=ig_web_copy_link&igshid=MzRlODBiNWFlZA==",
+    caption:
+      "توليد الصور بالوصف بإستخدام تقنية الذكاء الاصطناعي من مايكروسوفت Bing ، من خلال وصفك تستطيع صناعة الصور مجانا ، عليك بأن تصف بحرص مع اختيار مصطلحات فنية من أجل المزيد من التفاصيل .",
+  },
+  {
+    url: "https://www.instagram.com/reel/CtrEb9JqJL4/?utm_source=ig_web_copy_link&igshid=MzRlODBiNWFlZA==",
+    caption:
+      "توليد الصور بالوصف بإستخدام تقنية الذكاء الاصطناعي من مايكروسوفت Bing ، من خلال وصفك تستطيع صناعة الصور مجانا ، عليك بأن تصف بحرص مع اختيار مصطلحات فنية من أجل المزيد من التفاصيل .",
+  },
+  {
+    url: "https://www.instagram.com/reel/CtrEb9JqJL4/?utm_source=ig_web_copy_link&igshid=MzRlODBiNWFlZA==",
+    caption:
+      "توليد الصور بالوصف بإستخدام تقنية الذكاء الاصطناعي من مايكروسوفت Bing ، من خلال وصفك تستطيع صناعة الصور مجانا ، عليك بأن تصف بحرص مع اختيار مصطلحات فنية من أجل المزيد من التفاصيل .",
+  },
+  {
+    url: "https://www.instagram.com/reel/CtrEb9JqJL4/?utm_source=ig_web_copy_link&igshid=MzRlODBiNWFlZA==",
+    caption:
+      "توليد الصور بالوصف بإستخدام تقنية الذكاء الاصطناعي من مايكروسوفت Bing ، من خلال وصفك تستطيع صناعة الصور مجانا ، عليك بأن تصف بحرص مع اختيار مصطلحات فنية من أجل المزيد من التفاصيل .",
+  },
+];
+
 export const sliderSettings = {
   dots: true,
   infinite: false,
