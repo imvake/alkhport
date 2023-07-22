@@ -46,7 +46,7 @@ const Header = () => {
             <a href="#people">Testimonials</a>
           </li>
           <li className={`flexCenter ${css.phone}`}>
-            <p>+968 9463 5777</p>
+            <p>+968 9585 9979</p>
             <BiPhoneCall size={"40px"} />
           </li>
         </ul>

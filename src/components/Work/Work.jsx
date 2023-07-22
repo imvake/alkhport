@@ -23,7 +23,7 @@ const Work = () => {
 
       <div className={`innerWidth flexCenter ${css.container}`}>
         {/* heading */}
-        <span className="primaryText yPaddings">الـخـبـرة</span>
+        <span className="primaryText yPaddings">أهـدافـي</span>
 
         <div className={`flexCenter ${css.experiences}`}>
           {workExp.map((exp, i) => {

@@ -41,7 +41,7 @@ const Hero = () => {
         </motion.div>
 
         <a className={css.email} href="mailto:alkhalil92@hotmail.com">
-          alkhalil92@hotmail.com
+          alkhalilalabdali@gmail.com
         </a>
 
         <div className={css.lowerElements}>
@@ -63,6 +63,7 @@ const Hero = () => {
             <img src="./certificate.png" alt="" />
             <span>مـدرب مـعـتمـد</span>
             <span>من وزارة التـعليـم الـعـالـي</span>
+            <span>والبحث العلمي والإبـتـكار</span>
           </motion.div>
         </div>
       </motion.div>

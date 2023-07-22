@@ -27,11 +27,11 @@ const People = () => {
         className={`yPaddings innerWidth ${css.container}`}
       >
         <div className={`flexCenter ${css.heading}`}>
-          <span className="primaryText">People talk about us</span>
-          <p style={{ marginTop: "2rem" }}>
+          <span className="primaryText">أهـم أعـمـالـي</span>
+          {/* <p style={{ marginTop: "2rem" }}>
             I got a job that was in accordance with the salary and field of work
           </p>
-          <p>The process of submitting an appilication was quite cosy</p>
+          <p>The process of submitting an appilication was quite cosy</p> */}
         </div>
 
         <div className={`yPaddings ${css.comments}`}>
@@ -40,14 +40,13 @@ const People = () => {
             {igposts.map((igposts, i) => {
               return (
                 <div className={`flexCenter ${css.comment}`}>
-                  <iframe
+                  <img
                     src={igposts.url}
-                    width="300"
-                    height="400"
-                    frameBorder="0"
-                    scrolling="no"
-                    allowtransparency="true"
-                  ></iframe>
+                    alt=""
+                    width={350}
+                    style={{ borderRadius: "100%" }}
+                  />
+
                   {/* <p>{comment.comment}</p> */}
                   <div className={css.line}></div>
                   <div className={css.bio}>

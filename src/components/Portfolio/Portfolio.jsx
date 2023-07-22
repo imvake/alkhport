@@ -43,16 +43,21 @@ const Portfolio = () => {
             variants={fadeIn("up", "tween", 0.5, 0.6)}
             src="./showCase1.png"
             width={"auto"}
+            height={"auto"}
             alt="project"
           />
           <motion.img
             variants={fadeIn("up", "tween", 0.7, 0.6)}
             src="./21.png"
+            width={"auto"}
+            height={"auto"}
             alt="project"
           />
           <motion.img
             variants={fadeIn("up", "tween", 0.9, 0.6)}
             src="./showCase21.png"
+            width={"auto"}
+            height={"auto"}
             alt="project"
           />
         </div>
