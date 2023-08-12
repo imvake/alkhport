@@ -25,13 +25,14 @@ const Work = () => {
         {/* heading */}
         <span className="primaryText yPaddings">أهـدافـي</span>
 
-        <div className={`flexCenter ${css.experiences}`}>
+        <div className={`flexCenter container ${css.experiences}`}>
           {workExp.map((exp, i) => {
             return (
               <motion.div
                 variants={textVariant2}
                 key={i}
-                className={`flexCenter ${css.exp}`}
+                className={`flexCenter ${css.exp} `}
+                style={{ textAlign: "center" }}
               >
                 <div className={css.post}>
                   <h1>{exp.place}</h1>

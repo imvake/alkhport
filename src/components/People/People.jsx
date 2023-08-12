@@ -49,7 +49,7 @@ const People = () => {
 
                   {/* <p>{comment.comment}</p> */}
                   <div className={css.line}></div>
-                  <div className={css.bio}>
+                  <div className={css.bio} style={{ direction: "rtl" }}>
                     <span>{igposts.caption}</span>
                     {/* <span>{comment.post}</span> */}
                   </div>

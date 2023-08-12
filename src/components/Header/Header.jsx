@@ -37,13 +37,13 @@ const Header = () => {
             <a href="#experties">عـن الخـلـيـل</a>
           </li>
           <li>
-            <a href="#work">الـخـبرات</a>
+            <a href="#work">أهـدافـي</a>
           </li>
           <li>
-            <a href="#portfolio">Portfolio</a>
+            <a href="#portfolio">آخـر أعـمـالي</a>
           </li>
           <li>
-            <a href="#people">Testimonials</a>
+            <a href="#people">أعـمـالـي</a>
           </li>
           <li className={`flexCenter ${css.phone}`}>
             <p>+968 9585 9979</p>

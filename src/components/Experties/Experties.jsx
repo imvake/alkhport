@@ -15,7 +15,7 @@ const Experties = () => {
         className={`paddings yPaddings innerWidth flexCenter ${css.container}`}
       >
         {/* left side */}
-        <div className={css.leftSide}>
+        <div className={css.leftSide} style={{ textAlign: "center" }}>
           {projectExperience.map((exp, i) => {
             return (
               <motion.div
@@ -36,26 +36,17 @@ const Experties = () => {
         </div>
 
         {/* right */}
-        <motion.div variants={textVariant(0.5)} className={css.rightSide}>
-          <span className="primaryText" style={{ textAlign: "center" }}>
-            مـعـلـومـات عـنـي
-          </span>
+        <motion.div
+          variants={textVariant(0.5)}
+          className={css.rightSide}
+          style={{ textAlign: "center", direction: "rtl" }}
+        >
+          <span className="primaryText">عـن الخـلـيـل </span>
           {WhatDoIHelp.map((paragraph, i) => (
-            <span
-              className="secondaryText"
-              key={i}
-              style={{ textAlign: "center" }}
-            >
+            <span className="secondaryText" key={i}>
               {paragraph}
             </span>
           ))}
-
-          <div
-            className={`flexCenter ${css.stats}`}
-            style={{ backgroundColor: "#053F5C", borderRadius: "100px" }}
-          >
-            <img src="./logo.png" />
-          </div>
         </motion.div>
       </motion.div>
     </section>
